@@ -1,0 +1,60 @@
+.login{
+  width: 100%;
+  height: 100vh;
+}
+
+.video{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white
+}
+
+.login_title{
+  font-size: 4rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.login_btn{
+  font-size: 1.5rem !important;
+  font-weight: 300 !important;
+}
+
+.modal-content{
+  max-height: 440px;
+}
+
+.modal-body{
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.contact-text{
+  font-weight: 200;
+  font-size: .8rem !important;
+}
+
+.user-input{
+  padding: 0 !important;
+}
+
+.login-subtitle{
+  font-size: 1rem !important;
+  font-weight: 200 !important;
+}
+
+.remember-container{
+  border: 2px solid red;
+}
