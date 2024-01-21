@@ -53,8 +53,6 @@ else if (hours >= 17 && hours <= 24)
       // Clear the email and password fields after submission
       setEmail('');
       setPassword('');
-  
-      console.log('IT WORKED...');
     } catch (error) {
       // Handle errors gracefully
       console.error(error);
